@@ -88,6 +88,6 @@ f"""
  - /gcast <reply to message> - globally brodcast replied message to all chats
  - /pmpermit [on/off] - enable/disable pmpermit message
 *Sudo Users can execute any command in any groups
-
+NOTE - I'M THE PART OF @PROJECT_TSUKIYOMI_STARTED
 """
       ]
