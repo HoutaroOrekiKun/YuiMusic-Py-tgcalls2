@@ -21,4 +21,4 @@ bot = Bot(
 bot.start()
 run()
 idle()
-© 2021 GitHub, Inc.
+2021 GitHub, Inc.
