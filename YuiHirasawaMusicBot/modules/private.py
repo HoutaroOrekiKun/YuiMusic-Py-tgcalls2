@@ -32,7 +32,7 @@ def _start(client, message):
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
-        f"""**🔴 {PROJECT_NAME} Ohayo! Darling I'm Online**""",
+        f"""**🔴 Ohayo! Darling {PROJECT_NAME} is Online**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -77,7 +77,7 @@ def map(pos):
     elif(pos==len(tr.HELP_MSG)-1):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
-            [InlineKeyboardButton("➕ Add me 02 your Group 😌", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+            [InlineKeyboardButton("➕ Add 02 your Group 😌", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
              InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/{SUPPORT_GROUP}")],
             [InlineKeyboardButton(text = '🌝 Join Our Network 🌝', url=f"https://{UPDATES_CHANNEL}")],
