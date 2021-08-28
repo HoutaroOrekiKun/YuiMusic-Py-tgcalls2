@@ -22,7 +22,7 @@ def _start(client, message):
                         "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "✨ Join Our Network ✨", url=f"https://{UPDATES_CHANNEL}")
+                        "✨ Join Our Network ✨", url=f"{NETWORK_CHANNEL}")
                 ]
             ]
         ),
@@ -80,7 +80,7 @@ def map(pos):
             [InlineKeyboardButton("➕ Add 02 your Group 😌", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
              InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/{SUPPORT_GROUP}")],
-            [InlineKeyboardButton(text = '🌝 Join Our Network 🌝', url=f"https://{UPDATES_CHANNEL}")],
+            [InlineKeyboardButton(text = '🌝 Join Our Network 🌝', url=f"{NETWORK_CHANNEL}")],
             [InlineKeyboardButton(text = '⭐', callback_data = f"help+{pos-1}")]
         ]
     else:
